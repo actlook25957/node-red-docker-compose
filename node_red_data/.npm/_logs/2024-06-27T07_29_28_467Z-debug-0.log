@@ -1,0 +1,83 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.7.0
+2 info using node@v20.15.0
+3 silly config:load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config:load:file:/data/.npmrc
+5 silly config:load:file:/usr/src/node-red/.npmrc
+6 silly config:load:file:/usr/local/etc/npmrc
+7 verbose title npm install node-red-contrib-graphql@2.1.2
+8 verbose argv "install" "--no-audit" "--no-update-notifier" "--no-fund" "--save" "--save-prefix" "~" "--omit" "dev" "--engine-strict" "node-red-contrib-graphql@2.1.2"
+9 verbose logfile logs-max:10 dir:/data/.npm/_logs/2024-06-27T07_29_28_467Z-
+10 verbose logfile /data/.npm/_logs/2024-06-27T07_29_28_467Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly idealTree buildDeps
+13 silly fetch manifest node-red-contrib-graphql@2.1.2
+14 http fetch GET 200 https://registry.npmjs.org/node-red-contrib-graphql 953ms (cache miss)
+15 silly placeDep ROOT node-red-contrib-graphql@2.1.2 OK for: node-red-project@0.0.1 want: 2.1.2
+16 silly fetch manifest axios@~1.2.1
+17 silly fetch manifest mustache@~4.2.0
+18 silly fetch manifest follow-redirects@~1.15.2
+19 http fetch GET 200 https://registry.npmjs.org/axios 127ms (cache miss)
+20 http fetch GET 200 https://registry.npmjs.org/follow-redirects 163ms (cache miss)
+21 http fetch GET 200 https://registry.npmjs.org/mustache 242ms (cache miss)
+22 silly placeDep ROOT axios@1.2.6 OK for: node-red-contrib-graphql@2.1.2 want: ~1.2.1
+23 silly placeDep ROOT follow-redirects@1.15.6 OK for: node-red-contrib-graphql@2.1.2 want: ~1.15.2
+24 silly placeDep ROOT mustache@4.2.0 OK for: node-red-contrib-graphql@2.1.2 want: ~4.2.0
+25 silly fetch manifest follow-redirects@^1.15.0
+26 silly fetch manifest form-data@^4.0.0
+27 silly fetch manifest proxy-from-env@^1.1.0
+28 http fetch GET 200 https://registry.npmjs.org/proxy-from-env 49ms (cache miss)
+29 http fetch GET 200 https://registry.npmjs.org/form-data 776ms (cache miss)
+30 silly placeDep ROOT form-data@4.0.0 OK for: axios@1.2.6 want: ^4.0.0
+31 silly placeDep ROOT proxy-from-env@1.1.0 OK for: axios@1.2.6 want: ^1.1.0
+32 silly fetch manifest asynckit@^0.4.0
+33 silly fetch manifest combined-stream@^1.0.8
+34 silly fetch manifest mime-types@^2.1.12
+35 http fetch GET 200 https://registry.npmjs.org/mime-types 60ms (cache miss)
+36 http fetch GET 200 https://registry.npmjs.org/combined-stream 88ms (cache miss)
+37 http fetch GET 200 https://registry.npmjs.org/asynckit 141ms (cache miss)
+38 silly placeDep ROOT asynckit@0.4.0 OK for: form-data@4.0.0 want: ^0.4.0
+39 silly placeDep ROOT combined-stream@1.0.8 OK for: form-data@4.0.0 want: ^1.0.8
+40 silly placeDep ROOT mime-types@2.1.35 OK for: form-data@4.0.0 want: ^2.1.12
+41 silly fetch manifest delayed-stream@~1.0.0
+42 silly fetch manifest mime-db@1.52.0
+43 http fetch GET 200 https://registry.npmjs.org/mime-db 77ms (cache miss)
+44 http fetch GET 200 https://registry.npmjs.org/delayed-stream 115ms (cache miss)
+45 silly placeDep ROOT delayed-stream@1.0.0 OK for: combined-stream@1.0.8 want: ~1.0.0
+46 silly placeDep ROOT mime-db@1.52.0 OK for: mime-types@2.1.35 want: 1.52.0
+47 silly reify moves {}
+48 silly tarball no local data for delayed-stream@https://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz. Extracting by manifest.
+49 silly tarball no local data for mime-types@https://registry.npmjs.org/mime-types/-/mime-types-2.1.35.tgz. Extracting by manifest.
+50 silly tarball no local data for mime-db@https://registry.npmjs.org/mime-db/-/mime-db-1.52.0.tgz. Extracting by manifest.
+51 silly tarball no local data for combined-stream@https://registry.npmjs.org/combined-stream/-/combined-stream-1.0.8.tgz. Extracting by manifest.
+52 silly tarball no local data for mustache@https://registry.npmjs.org/mustache/-/mustache-4.2.0.tgz. Extracting by manifest.
+53 silly tarball no local data for proxy-from-env@https://registry.npmjs.org/proxy-from-env/-/proxy-from-env-1.1.0.tgz. Extracting by manifest.
+54 silly tarball no local data for form-data@https://registry.npmjs.org/form-data/-/form-data-4.0.0.tgz. Extracting by manifest.
+55 silly tarball no local data for follow-redirects@https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.6.tgz. Extracting by manifest.
+56 silly tarball no local data for asynckit@https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz. Extracting by manifest.
+57 silly tarball no local data for axios@https://registry.npmjs.org/axios/-/axios-1.2.6.tgz. Extracting by manifest.
+58 silly tarball no local data for node-red-contrib-graphql@https://registry.npmjs.org/node-red-contrib-graphql/-/node-red-contrib-graphql-2.1.2.tgz. Extracting by manifest.
+59 http fetch GET 200 https://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz 66ms (cache miss)
+60 http fetch GET 200 https://registry.npmjs.org/mime-db/-/mime-db-1.52.0.tgz 64ms (cache miss)
+61 http fetch GET 200 https://registry.npmjs.org/mime-types/-/mime-types-2.1.35.tgz 120ms (cache miss)
+62 http fetch GET 200 https://registry.npmjs.org/combined-stream/-/combined-stream-1.0.8.tgz 262ms (cache miss)
+63 http fetch GET 200 https://registry.npmjs.org/form-data/-/form-data-4.0.0.tgz 261ms (cache miss)
+64 http fetch GET 200 https://registry.npmjs.org/proxy-from-env/-/proxy-from-env-1.1.0.tgz 264ms (cache miss)
+65 http fetch GET 200 https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz 262ms (cache miss)
+66 http fetch GET 200 https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.6.tgz 264ms (cache miss)
+67 http fetch GET 200 https://registry.npmjs.org/mustache/-/mustache-4.2.0.tgz 274ms (cache miss)
+68 http fetch GET 200 https://registry.npmjs.org/axios/-/axios-1.2.6.tgz 2035ms (cache miss)
+69 http fetch GET 200 https://registry.npmjs.org/node-red-contrib-graphql/-/node-red-contrib-graphql-2.1.2.tgz 2128ms (cache miss)
+70 silly ADD node_modules/mime-db
+71 silly ADD node_modules/delayed-stream
+72 silly ADD node_modules/mime-types
+73 silly ADD node_modules/combined-stream
+74 silly ADD node_modules/asynckit
+75 silly ADD node_modules/proxy-from-env
+76 silly ADD node_modules/form-data
+77 silly ADD node_modules/mustache
+78 silly ADD node_modules/follow-redirects
+79 silly ADD node_modules/axios
+80 silly ADD node_modules/node-red-contrib-graphql
+81 verbose exit 0
+82 info ok
